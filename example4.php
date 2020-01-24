@@ -13,7 +13,16 @@
     // example ord — Конвертирует первый байт строки в число от 0 до 255
     $arr = ["h", "e", "l", "l", "o"];
     foreach ($arr as $value) {
-        echo ord($value)."<br>";
+        echo ucwords($value);
+      //echo ucfirst   
+      //echo ucwords
+      //echo trim
+      //echo ltrim
+      //echo rtrim
+      //echo lcfirst
+      //ord
+      //strtolower 
+      //strtoupper
     }
     ?>
 </body>
