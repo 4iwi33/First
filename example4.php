@@ -14,16 +14,20 @@
     $arr = ["h", "e", "l", "l", "o"];
     foreach ($arr as $value) {
         echo ucwords($value);
-      //echo ucfirst   
-      //echo ucwords
-      //echo trim
-      //echo ltrim
-      //echo rtrim
-      //echo lcfirst
-      //ord
-      //strtolower 
-      //strtoupper
+        //echo ucfirst   
+        //echo ucwords
+        //echo trim
+        //echo ltrim
+        //echo rtrim
+        //echo lcfirst
+        //ord
+        //strtolower 
+        //strtoupper
     }
+    echo "<br>";
+    $a = "hello world привет мир";
+    $a = strtolower($a);
+    echo $a;
     ?>
 </body>
 
