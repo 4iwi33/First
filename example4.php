@@ -28,6 +28,11 @@
     $a = "hello world привет мир";
     $a = strtolower($a);
     echo $a;
+    echo "<br>";
+    //str_shuffle — Переставляет символы в строке случайным образом
+    $a = "hello world";
+    $a = str_shuffle($a);
+    echo $a;
     ?>
 </body>
 
